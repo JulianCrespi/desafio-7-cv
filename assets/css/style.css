@@ -5,6 +5,11 @@ body {
     font-weight: 300;
 }
 
+html {
+    scroll-padding: 70px;
+    scroll-behavior: smooth;
+}
+
 .aboutmeimg {
     height: 350px;
     width: 350px;
