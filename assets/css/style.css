@@ -24,3 +24,9 @@ html {
 .carousel-caption, h5 p {
     text-shadow: 2px 2px 1px #000000;
 }
+
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+}
