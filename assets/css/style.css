@@ -1,4 +1,21 @@
 body {
     background-color: rgba(0, 0, 26, 0.889);
+    color: rgba(245, 245, 245, 0.855);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
 }
 
+.aboutmeimg {
+    height: 350px;
+    width: 350px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.container {
+    width: 50%;
+}
+
+.carousel-caption, h5 p {
+    text-shadow: 2px 2px 1px #000000;
+}
