@@ -53,6 +53,22 @@ i {
     color: lightblue;
 }
 
+.aboutlissimg {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    object-position: top;
+}
+
+.sofiasocials i {
+    font-size: 24px;
+    color: rgba(245, 245, 245, 0.855);
+}
+
+.sofiasocials i:hover {
+    color: lightblue;
+}
+
 @media (max-width: 600px) {
     .container {
         width: 100%;
