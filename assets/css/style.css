@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(0, 0, 26, 0.889);
+    background-color: #183153;
     color: rgba(245, 245, 245, 0.855);
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -41,8 +41,29 @@ a:hover {
     object-position: top;
 }
 
+i {
+    font-size: 120px;
+}
+
+#my-socials a {
+    color: rgba(245, 245, 245, 0.855);
+}
+
+#my-socials a:hover {
+    color: lightblue;
+}
+
 @media (max-width: 600px) {
     .container {
         width: 100%;
+    }
+
+    i {
+        font-size: 70px;
+    }
+
+    .habimg {
+        height: 150px;
+        width: 150px;
     }
 }
